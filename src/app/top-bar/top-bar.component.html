@@ -1,10 +1,36 @@
 <ul>
-
-<a [routerLink]="['/']">
-  <h1>YukApp</h1>
-</a>
-
+  <li>
+    <a [routerLink]="['accueil']">
+      <h2>YukApp</h2>
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['profil']">
+      <h2>Profil</h2>
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/']">
+      <h2>Groupe</h2>
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/']">
+      <h2>Historique</h2>
+    </a>
+  </li>
 </ul>
+
+<style>
+  li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  h2 {
+    color: white;
+  }
+</style>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
