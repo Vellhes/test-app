@@ -1,21 +1,17 @@
-export const products = [
+export const members = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: "Malo",
+    age: 18
   },
   {
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: "Sofyann",
+    age: 19
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: "Arthur",
+    age: 25
   }
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
